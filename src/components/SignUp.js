@@ -164,9 +164,7 @@ const SignUp = (props) => {
         <h3 className="USR-mandatory-fields"> <FormattedMessage id="SU-mandatory-fields"/> </h3>
         
       </Form>
-
-      
-
+            
       <button style={{marginTop:"2vmin"}} className="USR-button" onClick={handleClick}>
           <FormattedMessage id="SU-create"/>
       </button>
